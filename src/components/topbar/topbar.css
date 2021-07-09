@@ -1,0 +1,50 @@
+.topbarContainer {
+    height: 60px;
+    width: 100%;
+    background-color: #04234b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .topbarLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .optionBar{
+      color: white;
+      cursor: pointer;
+      margin: 0px 10px 0px 20px;
+  }
+  .optionBar:hover{
+      color: rgb(59, 59, 192);
+      transform: scale(1.3);
+  }
+  .logoimg{
+      height: 35px;
+      width: 200px;
+  }
+
+  .logoutButton{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+      border-radius: 5px;
+      width: 80px;
+      padding: 2px;
+      cursor: pointer;
+      border: none;
+  }
+  .logoutButton:hover{
+      background-color: rgb(59, 59, 192);
+      color: rgb(255, 255, 255);
+  }
+  .powerIcon{
+      font-size: 5px;
+  }
