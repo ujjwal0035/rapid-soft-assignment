@@ -17,6 +17,7 @@ const SubTopBar = () => {
                 <span className="tripSummary">Trip Summary</span>
                 <br/>
                 <Link to="/" className="Link link1" >DashBord</Link>
+                <span>/</span>
                 <Link to="/tripsummary" className="Link">Trip Summary</Link>
                 
             </div>

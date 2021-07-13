@@ -1,0 +1,64 @@
+.mainTable{
+    width: 90%;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+ .tableTopbar{
+    width: 100%;
+    background-color: #04234b;
+    color: #faf8f8;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tableContainer {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ffffff;
+    text-align: center;
+    padding: 8px;
+    font-size: 10px;
+  }
+  
+  th {
+    background-color: rgb(117, 201, 250);
+  }
+  
+  td {
+    background-color: rgb(205, 235, 253);
+  }
+
+  .reportButton{
+      height: 30px;
+      background-color: #22f0ff;
+      border: none;
+      color: #ffffff;
+      padding: 5px;
+      border-radius: 5px;
+      margin: 2px;
+  }
+  .minimiseTable{
+    cursor: pointer;
+  }
+  .minimiseTable:hover{
+    transform: scale(1.3);
+    
+  }

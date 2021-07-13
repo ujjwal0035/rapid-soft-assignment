@@ -1,0 +1,65 @@
+.boxContainer{
+    width: 90%;
+    height: 80px;
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.seprate{
+    display: flex;
+    align-items: center;
+    
+}
+.firstBoxElement, .secondBoxElement,.thirdBoxElement{
+    display: flex;
+    flex-direction: column;
+    /* width: 25%; */
+}
+
+.boxOne, .boxTwo{
+    width: 300px;
+    height: 30px;
+    background-color: rgb(27, 3, 248);
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px 0px 0px 10px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    
+}
+.nameLetter{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.boxOne{
+    margin-bottom: 10px;
+}
+.boxTwo{
+
+}
+.otherExpBox{
+    height: 80px;
+    width: 300px;
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-self: center;  */
+    align-items: center;
+    border-radius: 5px;
+    padding-left: 10px;
+    
+}
+@media only screen and (max-width:600px){
+    .boxOne, .boxTwo{
+        width: 300px;
+    height: 30px;
+    background-color: rgb(27, 3, 248);
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    }
+}
